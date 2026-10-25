@@ -11,3 +11,5 @@ __pycache__/
 *.py[cod]
 .venv/
 .venv-pose/
+showcase-export/
+showcase-export.zip
