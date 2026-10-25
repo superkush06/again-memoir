@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "reviewedDate": "2026-10-24",
+  "coordinateOrder": ["left", "top", "right", "bottom"],
+  "coordinateSpace": "normalized-source-image",
+  "sourceDimensions": [1600, 1200],
+  "evaluationDimensions": [960, 720],
+  "notes": [
+    "Reviewed directly against the exact served source photographs identified by SHA-256, without browser UI.",
+    "Rectangles include neighboring pixels to inspect boundaries; these are diagnostic regions, not semantic masks.",
+    "Overlapping regions are evaluated independently. Confidence describes region identification, not recovered geometry.",
+    "Preserve full-image framing. Rasterize left/top with floor and right/bottom with ceil, using an exclusive right/bottom pixel boundary."
+  ],
+  "photos": [
+    {
+      "index": 1,
+      "memoryId": "79dbb4d3-f436-4364-bda4-7421fa824b6f",
+      "originalFilename": "PXL_20251101_012036342.jpg",
+      "servedSourceFilename": "206d116ba6e5ef6bf416b95d5e163eb1-source.jpg",
+      "servedSourceSha256": "5dee2818248e869f18f9945ae7e26ca812c1a1666b33048af8a607bc5d54f396",
+      "regions": [
+        {
+          "id": "umbrella-pole",
+          "box": [0.715, 0.0, 0.767, 0.83],
+          "description": "Silver umbrella pole from top edge to table contact, including both thin edges.",
+          "confidence": "high"
+        },
+        {
+          "id": "table-and-chair-boundaries",
+          "box": [0.405, 0.64, 1.0, 1.0],
+          "description": "Round foreground table, rim, glass pattern and empty left chair; includes intersecting person and pole pixels.",
+          "confidence": "high"
+        },
+        {
+          "id": "left-person-crossed-arms",
+          "box": [0.0, 0.26, 0.335, 1.0],
+          "description": "Cropped person with dark face covering, red glasses, white sleeves and crossed arms.",
+          "confidence": "high"
+        },
+        {
+          "id": "standing-person",
+          "box": [0.395, 0.265, 0.545, 0.67],
+          "description": "Green-jersey person, including torso, arm and pocket-area pose.",
+          "confidence": "high"
+        },
+        {
+          "id": "standing-face",
+          "box": [0.46, 0.27, 0.54, 0.375],
+          "description": "Standing person's head, hair, glasses and visible profile.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-person-chin-pose",
+          "box": [0.65, 0.46, 0.86, 0.75],
+          "description": "Spotted-costume person with hand near chin; foreground pole occludes part of the body.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-face",
+          "box": [0.747, 0.46, 0.823, 0.58],
+          "description": "Seated person's head and visible face beside pole, with hand/chin margin.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "memoryId": "eeb2d391-482a-40a9-8333-c9b811b67987",
+      "originalFilename": "PXL_20251101_012037909.jpg",
+      "servedSourceFilename": "aadd2191a0e52d35da121e52c19756a9-source.jpg",
+      "servedSourceSha256": "b86cac9b73f389faabfb2d30d470da7f749e451312e8c490b3f83456b47758f1",
+      "regions": [
+        {
+          "id": "umbrella-pole",
+          "box": [0.238, 0.0, 0.35, 0.8],
+          "description": "Slanted silver pole from top edge to table; rectangle accommodates changing horizontal position.",
+          "confidence": "high"
+        },
+        {
+          "id": "table-rim",
+          "box": [0.0, 0.675, 0.5, 1.0],
+          "description": "Foreground glass tabletop, curved right/lower rim, fabric and pole contact.",
+          "confidence": "high"
+        },
+        {
+          "id": "chair-boundaries",
+          "box": [0.405, 0.64, 0.695, 1.0],
+          "description": "Two chair backs/seats, curved frames and overlap with standing person's legs.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-person-chin-pose",
+          "box": [0.214, 0.434, 0.413, 0.7],
+          "description": "Spotted-costume person including raised hand near chin and lower arms; partly pole-occluded.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-face",
+          "box": [0.322, 0.438, 0.394, 0.548],
+          "description": "Seated person's visible head and face, with chin/hand margin.",
+          "confidence": "high"
+        },
+        {
+          "id": "standing-person",
+          "box": [0.489, 0.294, 0.616, 0.858],
+          "description": "Background person in dark clothing, including head, body and visible legs behind chair.",
+          "confidence": "high"
+        },
+        {
+          "id": "standing-face",
+          "box": [0.532, 0.29, 0.591, 0.39],
+          "description": "Background standing person's head, hair and visible face.",
+          "confidence": "high"
+        },
+        {
+          "id": "phone-holder-face",
+          "box": [0.705, 0.0, 0.915, 0.235],
+          "description": "Foreground person's visible face and head, cropped by source top boundary.",
+          "confidence": "high"
+        },
+        {
+          "id": "phone-visible-parts",
+          "box": [0.592, 0.389, 0.712, 0.512],
+          "description": "Visible diagonal green/dark phone and adjacent gripping fingers; rectangle includes hand pixels and is not a phone-only mask.",
+          "confidence": "high"
+        },
+        {
+          "id": "phone-hand-contact",
+          "box": [0.6, 0.425, 0.73, 0.57],
+          "description": "Phone, gripping fingers, palm and sleeve boundary for detached-placement/occlusion inspection.",
+          "confidence": "high"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "memoryId": "859ef3b1-63e0-406a-9fbf-793f0c5699c0",
+      "originalFilename": "PXL_20251101_012040684.jpg",
+      "servedSourceFilename": "d5b0dc86660c99a3dcb525e4b021fe16-source.jpg",
+      "servedSourceSha256": "1cf5fba4c00b52fa65dfbaf203074605a172ffe1dc35845f88fd184a190c009a",
+      "regions": [
+        {
+          "id": "umbrella-pole",
+          "box": [0.417, 0.0, 0.452, 0.725],
+          "description": "Nearly vertical silver umbrella pole from top boundary to tabletop contact.",
+          "confidence": "high"
+        },
+        {
+          "id": "table-rim-and-pattern",
+          "box": [0.17, 0.615, 0.665, 0.935],
+          "description": "Round glass tabletop, grid pattern and curved rim; includes fabric and table object.",
+          "confidence": "high"
+        },
+        {
+          "id": "left-chair-boundary",
+          "box": [0.055, 0.59, 0.29, 0.925],
+          "description": "Empty left chair, curved upper frame, mesh back and narrow supports.",
+          "confidence": "high"
+        },
+        {
+          "id": "right-chair-boundaries",
+          "box": [0.585, 0.575, 0.915, 1.0],
+          "description": "Right/foreground chair frames and mesh surfaces; includes part of blurred foreground arm.",
+          "confidence": "high"
+        },
+        {
+          "id": "left-standing-person",
+          "box": [0.0, 0.115, 0.24, 0.705],
+          "description": "Green-jersey person including hands near pockets, clothing and silhouette against brick.",
+          "confidence": "high"
+        },
+        {
+          "id": "left-standing-face",
+          "box": [0.07, 0.11, 0.2, 0.285],
+          "description": "Green-jersey person's head, glasses and face.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-person-raised-hands",
+          "box": [0.335, 0.385, 0.575, 0.65],
+          "description": "Spotted-costume person adjusting hood with both hands raised; includes pole occlusion.",
+          "confidence": "high"
+        },
+        {
+          "id": "seated-face-and-hood",
+          "box": [0.44, 0.39, 0.535, 0.554],
+          "description": "Hood, hands and partly visible face underneath; contextual appearance region because face is substantially occluded.",
+          "confidence": "medium"
+        },
+        {
+          "id": "right-standing-person",
+          "box": [0.633, 0.14, 0.83, 0.61],
+          "description": "Background black-clothed person from head through upper legs; right edge partly overlaps foreground person.",
+          "confidence": "high"
+        },
+        {
+          "id": "right-standing-face",
+          "box": [0.685, 0.14, 0.77, 0.27],
+          "description": "Background standing person's visible head, hair and face.",
+          "confidence": "high"
+        }
+      ]
+    }
+  ]
+}

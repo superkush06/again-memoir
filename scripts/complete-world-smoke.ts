@@ -1,0 +1,12 @@
+import path from 'node:path';
+import { MemoryStore } from '../server/store.js';
+import { SceneReconstructor } from '../server/reconstruction.js';
+import { WorldCompleter } from '../server/world-completion.js';
+const store = new MemoryStore(path.resolve(process.env.DATA_DIR || 'data'));
+await store.initialize();
+const memory = store.get(process.argv[2] || 'instagram-15e0e46b42b1d4453cda');
+if (!memory) throw new Error('Memory not found.');
+const geometry = await new SceneReconstructor(store.uploadsDir).reconstruct(memory);
+const started = Date.now();
+const completed = await new WorldCompleter(store.uploadsDir).complete(geometry);
+console.log(JSON.stringify({ id: memory.id, completionUrl: completed.completionUrl, elapsedMs: Date.now() - started }));

@@ -1,0 +1,33 @@
+{
+  "actorSpecification": 1,
+  "name": "google-photos-shared-album",
+  "title": "Google Photos Shared Album",
+  "description": "Lists every photo in a public shared Google Photos album link, with full-resolution and original download URLs, dimensions and capture times.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Album photos",
+      "views": {
+        "overview": {
+          "title": "Photos",
+          "transformation": {
+            "fields": ["position", "thumbnailUrl", "takenAt", "width", "height", "albumTitle", "imageUrl", "originalUrl"]
+          },
+          "display": {
+            "component": "table",
+            "properties": {
+              "thumbnailUrl": { "label": "Preview", "format": "image" },
+              "takenAt": { "label": "Taken", "format": "date" },
+              "imageUrl": { "label": "Full size", "format": "link" },
+              "originalUrl": { "label": "Original", "format": "link" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

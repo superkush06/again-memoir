@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Photo fidelity comparisons</title>
+    <link rel="stylesheet" href="/compare.css" />
+  </head>
+  <body>
+    <header class="masthead">
+      <div>
+        <p class="eyebrow">MEMOIR · PHOTO FIDELITY LAB</p>
+        <h1>See what changed.</h1>
+      </div>
+      <div class="header-right">
+        <span class="badge">Saved depth-only comparison</span
+        ><strong id="measured-count">Loading saved evidence…</strong>
+      </div>
+    </header>
+    <div class="scope-note">
+      Fixed, saved camera renders. This is an isolated depth-surface experiment,
+      not the live full candidate world.
+      <b>Runtime and headset performance: unmeasured.</b>
+    </div>
+    <div class="workspace">
+      <aside class="library">
+        <div class="library-heading">
+          <h2>Photo library</h2>
+          <span id="library-count"></span>
+        </div>
+        <p class="muted small">
+          All originals; measured comparisons are marked.
+        </p>
+        <nav id="photo-list" aria-label="Choose original photo"></nav>
+      </aside>
+      <main>
+        <section class="photo-intro">
+          <a id="original-link" target="_blank" rel="noopener"
+            ><img id="original-thumb" alt="Selected original photo"
+          /></a>
+          <div>
+            <p class="eyebrow">ORIGINAL PHOTOGRAPH</p>
+            <h2 id="photo-title">Loading…</h2>
+            <p id="photo-description" class="muted"></p>
+            <p id="availability" class="availability"></p>
+          </div>
+          <button id="copy-link" class="quiet">Copy this comparison</button>
+        </section>
+        <section class="controls" aria-label="Comparison controls">
+          <label>Left implementation<select id="left-select"></select></label
+          ><label
+            >Right implementation<select id="right-select"></select
+          ></label>
+          <label
+            >Inspect region<select id="crop-select">
+              <option value="full">Full image</option>
+            </select></label
+          >
+          <div class="control-actions">
+            <span class="control-label">Display</span>
+            <div class="segmented">
+              <button data-mode="side">Side by side</button
+              ><button data-mode="swipe">Swipe</button>
+            </div>
+          </div>
+        </section>
+        <section class="view-toolbar">
+          <div class="segmented views">
+            <button data-view="left-8cm">← 8 cm virtual</button
+            ><button data-view="source-camera">Source camera</button
+            ><button data-view="right-8cm">8 cm virtual →</button>
+          </div>
+          <span id="view-explanation" class="muted small"></span
+          ><button id="source-reset" class="quiet">Reset to source</button>
+        </section>
+        <section
+          id="comparison-stage"
+          aria-label="Saved image comparison"
+        ></section>
+        <div id="swipe-control" hidden>
+          <label for="swipe-range"
+            >Move the divider <span id="swipe-percent">50%</span></label
+          ><input
+            id="swipe-range"
+            type="range"
+            min="0"
+            max="100"
+            value="50"
+            aria-label="Swipe comparison divider"
+          />
+        </div>
+        <p id="crop-description" class="muted small"></p>
+        <section class="scores">
+          <div class="score-heading">
+            <h2>Source-view pixel comparison</h2>
+            <span id="score-scope" class="muted small"></span>
+          </div>
+          <div id="scores-content"></div>
+          <p class="muted small">
+            Lower MAE / RMSE / changed-pixel fraction and higher PSNR mean
+            closer source pixels. They do not prove correct geometry or
+            novel-view fidelity. No automatic acceptance verdict.
+          </p>
+        </section>
+        <details class="provenance">
+          <summary>Capture and measurement provenance</summary>
+          <div id="provenance-content"></div>
+        </details>
+        <footer>
+          Local, read-only review · saved assets are never altered · URL
+          preserves photo, implementations, view, display and crop
+        </footer>
+      </main>
+    </div>
+    <div id="status" role="status" aria-live="polite"></div>
+    <script type="module" src="/compare-client.js"></script>
+  </body>
+</html>

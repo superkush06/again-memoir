@@ -1,0 +1,21 @@
+import path from 'node:path';
+import sharp from 'sharp';
+import { MemoryStore } from '../server/store.js';
+import { SceneReconstructor } from '../server/reconstruction.js';
+
+const directory = path.resolve(process.env.DATA_DIR || 'data');
+const store = new MemoryStore(directory);
+await store.initialize();
+const id = process.argv[2];
+const memory = id ? store.get(id) : store.list().find(item => item.mediaType === 'image' && item.url.startsWith('/uploads/'));
+if (!memory) throw new Error('Choose an existing image memory ID.');
+const started = performance.now();
+const reconstructor = new SceneReconstructor(store.uploadsDir);
+const reconstruction = await reconstructor.reconstruct(memory);
+if (!reconstruction) throw new Error('No reconstruction produced.');
+const depthFile = path.join(store.uploadsDir, reconstruction.depthUrl.replace('/uploads/', ''));
+const { channels } = await sharp(depthFile).stats();
+if (channels[0].max - channels[0].min < 10) throw new Error('Depth result has no meaningful range.');
+const cachedStarted = performance.now();
+const cached = await reconstructor.reconstruct(memory);
+console.log(JSON.stringify({ memoryId: memory.id, elapsedMs: Math.round(performance.now() - started), cachedMs: Math.round(performance.now() - cachedStarted), cacheMatches: cached?.depthUrl === reconstruction.depthUrl, range: [channels[0].min, channels[0].max], reconstruction }, null, 2));

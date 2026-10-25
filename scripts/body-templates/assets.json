@@ -1,0 +1,140 @@
+{
+  "license": "CC0-1.0",
+  "makehumanCommit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+  "assets": [
+    {
+      "path": "makehuman/base.obj",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/3dobjs/base.obj",
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "bytes": 1749303
+    },
+    {
+      "path": "makehuman/default.mhskel",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default.mhskel",
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "bytes": 117790
+    },
+    {
+      "path": "makehuman/default_weights.mhw",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default_weights.mhw",
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "bytes": 897521
+    },
+    {
+      "path": "makehuman/LICENSE.ASSETS.md",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "bytes": 6962
+    },
+    {
+      "path": "makehuman/african-male-young.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/african-male-young.target",
+      "sha256": "894abc1fbb3d28543a51fef16f89d5d4bdf9aa2e1534413339811a3d47818b7d",
+      "bytes": 406170
+    },
+    {
+      "path": "makehuman/asian-male-young.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/asian-male-young.target",
+      "sha256": "ed2e8c191cb6b87b4a2d97c80486acb2604fa549316c7aa2a738a5d5a14334dc",
+      "bytes": 421040
+    },
+    {
+      "path": "makehuman/caucasian-male-young.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/caucasian-male-young.target",
+      "sha256": "70e228ba7164737dae664454394536fc5935fa48d333c1a97d77e2dc6eacc5f5",
+      "bytes": 396479
+    },
+    {
+      "path": "makehuman/universal-male-young-averagemuscle-averageweight.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-averageweight.target",
+      "sha256": "4ba5396ddabda448ece15650a566fbebfbb10239256ccb201e8f883429e12249",
+      "bytes": 604
+    },
+    {
+      "path": "makehuman/universal-male-young-averagemuscle-maxweight.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-maxweight.target",
+      "sha256": "3e77ff5a07a9b870db5226507e1cf8a295f0e09c109fb72142770f5f50427b5e",
+      "bytes": 155861
+    },
+    {
+      "path": "makehuman/universal-male-young-averagemuscle-minweight.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-averagemuscle-minweight.target",
+      "sha256": "fac0d53b7051f4d1f06230d0b419e916eb5bae5ce67c031a9998fdde05229755",
+      "bytes": 147071
+    },
+    {
+      "path": "makehuman/universal-male-young-maxmuscle-averageweight.target",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/targets/macrodetails/universal-male-young-maxmuscle-averageweight.target",
+      "sha256": "c171ff9cc95e96273beb3e3b1969a01988c2d4982ebc6fe04bf81cf72ee3b295",
+      "bytes": 147110
+    },
+    {
+      "path": "assets/eyes/low-poly/low-poly.obj",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/eyes/low-poly/low-poly.obj",
+      "sha256": "783fe1e6331162c876520b4c2bed7a8ca06354ca15497e8ebd68bb1b59f4d3de",
+      "bytes": 6604
+    },
+    {
+      "path": "assets/eyes/low-poly/low-poly.mhclo",
+      "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/eyes/low-poly/low-poly.mhclo",
+      "sha256": "68582e28e9176cba7cfcf35208f671b6201b8d1bc95c32decff61a3160ec34d8",
+      "bytes": 1344
+    },
+    {
+      "path": "assets/clothes/toigo_basic_tucked_t-shirt/t_shirt_basic_tucked.obj",
+      "url": "https://files2.makehumancommunity.org/asset_packs/shirts01/shirts01_cc0.zip",
+      "sha256": "22159cf14d1f6831f931b49625f8f7692910bac22499c43466c0b5a2159b4d03",
+      "bytes": 109974,
+      "entry": "clothes/toigo_basic_tucked_t-shirt/t_shirt_basic_tucked.obj"
+    },
+    {
+      "path": "assets/clothes/toigo_basic_tucked_t-shirt/toigo_basic_tucked_t-shirt.mhclo",
+      "url": "https://files2.makehumancommunity.org/asset_packs/shirts01/shirts01_cc0.zip",
+      "sha256": "c34bd03895c5ad9ec46965ef7d5f3e5e8c567630797ab312f8762c1d9fde8f71",
+      "bytes": 94278,
+      "entry": "clothes/toigo_basic_tucked_t-shirt/toigo_basic_tucked_t-shirt.mhclo"
+    },
+    {
+      "path": "assets/clothes/toigo_wool_pants/pants_wool.obj",
+      "url": "https://files2.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip",
+      "sha256": "e02cd1e417ca3365e4dafc033f415c5186739df535d98810075cface0ce59c96",
+      "bytes": 108902,
+      "entry": "clothes/toigo_wool_pants/pants_wool.obj"
+    },
+    {
+      "path": "assets/clothes/toigo_wool_pants/toigo_wool_pants.mhclo",
+      "url": "https://files2.makehumancommunity.org/asset_packs/pants01/pants01_cc0.zip",
+      "sha256": "ac1a57a817976d80ece8a88698873d54de7f252d01ba3dca5e361693621fcf22",
+      "bytes": 93219,
+      "entry": "clothes/toigo_wool_pants/toigo_wool_pants.mhclo"
+    },
+    {
+      "path": "assets/clothes/shoes02/shoes02.mhclo",
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "sha256": "0d447fd6b7415d6b2603e91697336ee51ac2f00ef85878d6667e9acfb45a20fe",
+      "bytes": 110217,
+      "entry": "clothes/shoes02/shoes02.mhclo"
+    },
+    {
+      "path": "assets/clothes/shoes02/shoes02.obj",
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "sha256": "5726aabac42ff489998d0a769545dea013961bbb71b9c6024d75170181a98818",
+      "bytes": 125457,
+      "entry": "clothes/shoes02/shoes02.obj"
+    },
+    {
+      "path": "assets/hair/short01/short01.mhclo",
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "sha256": "ae1ffaa98da5753b803b3a173bede4895d2215e6bb94763f3765a71f0e984f35",
+      "bytes": 201588,
+      "entry": "hair/short01/short01.mhclo"
+    },
+    {
+      "path": "assets/hair/short01/short01.obj",
+      "url": "https://files2.makehumancommunity.org/asset_packs/makehuman_system_assets/makehuman_system_assets_cc0.zip",
+      "sha256": "d998d8416f9b5d5591f1d756f4d292288d000a6951bc0f4d2e8e72727bbc44fa",
+      "bytes": 194450,
+      "entry": "hair/short01/short01.obj"
+    }
+  ]
+}

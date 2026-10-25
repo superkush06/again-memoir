@@ -1,0 +1,26 @@
+{
+  "title": "Google Photos shared album",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "albumUrl": {
+      "title": "Shared album link",
+      "type": "string",
+      "description": "A link-shared Google Photos album: https://photos.app.goo.gl/… or https://photos.google.com/share/…. Only albums you own or have permission to use.",
+      "editor": "textfield",
+      "prefill": "https://photos.app.goo.gl/BYdzzQJMn45bDYio6",
+      "pattern": "^https://(photos\\.app\\.goo\\.gl/|photos\\.google\\.com/(u/\\d+/)?share/).+"
+    },
+    "maxItems": {
+      "title": "Maximum photos",
+      "type": "integer",
+      "description": "Stop after this many photos, in album order. Later pages are read as needed.",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 5000
+    }
+  },
+  "required": [
+    "albumUrl"
+  ]
+}

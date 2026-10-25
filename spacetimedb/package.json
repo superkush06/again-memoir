@@ -1,0 +1,17 @@
+{
+  "name": "memoir-multiplayer-module",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "spacetimedb": "2.13.0"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^5.0.5"
+  }
+}

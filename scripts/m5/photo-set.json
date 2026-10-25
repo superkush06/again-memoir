@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "description": "Fixed M5 depth benchmark photo set: Wikimedia Commons 1600px thumbnails, verified by SHA-256. Photos are downloaded locally (scripts/m5/fetch-photo-set.mjs) and never committed.",
+  "photos": [
+    {
+      "id": "01-indoor-people-a",
+      "category": "indoor-people",
+      "title": "File:Bonanni's Everywhere.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Bonanni%27s_Everywhere.jpg/1920px-Bonanni%27s_Everywhere.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Bonanni%27s_Everywhere.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Jorge Jaramillo",
+      "sha256": "0f069c79075fa57dcf06c0251bca0eca085ece1c4acc1ca47e03846ea400367e"
+    },
+    {
+      "id": "02-indoor-people-b",
+      "category": "indoor-people",
+      "title": "File:Wikimedia Hackathon, Milano 2026, giorno 3 (00835).jpeg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Wikimedia_Hackathon%2C_Milano_2026%2C_giorno_3_%2800835%29.jpeg/1920px-Wikimedia_Hackathon%2C_Milano_2026%2C_giorno_3_%2800835%29.jpeg",
+      "page": "https://commons.wikimedia.org/wiki/File:Wikimedia_Hackathon,_Milano_2026,_giorno_3_(00835).jpeg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Francesco Tosoni",
+      "sha256": "6a38306b244a80485e21b1aeac41a475d8feac3e79fc040754c351c3229635b8"
+    },
+    {
+      "id": "03-street-a",
+      "category": "street",
+      "title": "File:Rue du Bourg Monthey 2020.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Rue_du_Bourg_Monthey_2020.jpg/1920px-Rue_du_Bourg_Monthey_2020.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Rue_du_Bourg_Monthey_2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Espandero",
+      "sha256": "77333ce67d0c336e59d7e97fd5fed0d8b060ac4c4edae37288ed83eafdf9a4c0"
+    },
+    {
+      "id": "04-street-b",
+      "category": "street",
+      "title": "File:Kocmyrzowska and Karol Darwin streets, pedestrian streets and tram tracks, 2026, Kraków, Poland.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg/1920px-Kocmyrzowska_and_Karol_Darwin_streets%2C_pedestrian_streets_and_tram_tracks%2C_2026%2C_Krak%C3%B3w%2C_Poland.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Kocmyrzowska_and_Karol_Darwin_streets,_pedestrian_streets_and_tram_tracks,_2026,_Krak%C3%B3w,_Poland.jpg",
+      "license": "CC BY 4.0",
+      "artist": "Igor123121",
+      "sha256": "b1307f8e6b3f226a115a2c7a6c67440d61d77f889f2c56cd301823c12d9babf0"
+    },
+    {
+      "id": "05-landscape-a",
+      "category": "landscape-ground",
+      "title": "File:Santes chemin voie ferree champ.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Santes_chemin_voie_ferree_champ.jpg/1920px-Santes_chemin_voie_ferree_champ.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Santes_chemin_voie_ferree_champ.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Velvet",
+      "sha256": "98c89a7e9a0d415b725ad521303cbf1844d5003012ab120f9dcaff656c839160"
+    },
+    {
+      "id": "06-landscape-b",
+      "category": "landscape-ground",
+      "title": "File:Hem chemin marque.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Hem_chemin_marque.jpg/1920px-Hem_chemin_marque.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Hem_chemin_marque.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Velvet",
+      "sha256": "5c5f15268740871f36172049447c3822eeee3f574bc5407d13f9e1a58e365354"
+    },
+    {
+      "id": "07-portrait-a",
+      "category": "portrait",
+      "title": "File:Laughing woman with teeth.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Laughing_woman_with_teeth.jpg/1920px-Laughing_woman_with_teeth.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Laughing_woman_with_teeth.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Basile Morin",
+      "sha256": "22e1f8cba22949f8b0add6e06cdb435799cd020fb1e8ad72dc7a48c6c70b1d55"
+    },
+    {
+      "id": "08-portrait-b",
+      "category": "portrait",
+      "title": "File:Lao woman chewing paan.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Lao_woman_chewing_paan.jpg/1920px-Lao_woman_chewing_paan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lao_woman_chewing_paan.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Basile Morin",
+      "sha256": "6c79acf41983de47e0af0bfe3e542cb28e753015d9a5a04ea6b9f8cde5f802d0"
+    },
+    {
+      "id": "09-flat-wall",
+      "category": "flat-wall-or-screen",
+      "title": "File:Red brick wall texture.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Red_brick_wall_texture.JPG/1920px-Red_brick_wall_texture.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Red_brick_wall_texture.JPG",
+      "license": "CC BY-SA 3.0",
+      "artist": "M0tty",
+      "sha256": "a8d95082bb824b3dfaf5db97f8606bc2467b4467c8522979b290a2020e3637a8"
+    },
+    {
+      "id": "10-flat-screen",
+      "category": "flat-wall-or-screen",
+      "title": "File:Lenovo Ideapad 100-15IBY - cristaux liquides (5 dioptries).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lenovo_Ideapad_100-15IBY_-_cristaux_liquides_%285_dioptries%29.jpg/1920px-Lenovo_Ideapad_100-15IBY_-_cristaux_liquides_%285_dioptries%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Lenovo_Ideapad_100-15IBY_-_cristaux_liquides_(5_dioptries).jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Gzen92",
+      "sha256": "b40057c9bf7bce009752835db1bd66305885f60578033a95186e48c26cc14f1a"
+    },
+    {
+      "id": "11-night-a",
+      "category": "night",
+      "title": "File:Esztergom by night 01 - Simor János utca.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Esztergom_by_night_01_-_Simor_J%C3%A1nos_utca.jpg/1920px-Esztergom_by_night_01_-_Simor_J%C3%A1nos_utca.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Esztergom_by_night_01_-_Simor_J%C3%A1nos_utca.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Pudelek",
+      "sha256": "6b60354f804013dd21b5235a403c9fa802ddfcc568aa191208f63b3c2d2a6109"
+    },
+    {
+      "id": "12-night-b",
+      "category": "night",
+      "title": "File:Copenhagen, Kødbyen by night, September 2022.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Copenhagen%2C_K%C3%B8dbyen_by_night%2C_September_2022.jpg/1920px-Copenhagen%2C_K%C3%B8dbyen_by_night%2C_September_2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Copenhagen,_K%C3%B8dbyen_by_night,_September_2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Terragio67",
+      "sha256": "64693357939969bdd38039eb8c9c931d4cfb90fdab3033664a64e5f82b44fdfd"
+    },
+    {
+      "id": "13-crowded-a",
+      "category": "crowded-thin-boundaries",
+      "title": "File:Crowd Visiting stalls along the Amaralingeswara temple road.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Crowd_Visiting_stalls_along_the_Amaralingeswara_temple_road.jpg/1920px-Crowd_Visiting_stalls_along_the_Amaralingeswara_temple_road.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Crowd_Visiting_stalls_along_the_Amaralingeswara_temple_road.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "iMahesh",
+      "sha256": "2120def8dd38b87ac3581beb3c0315a73f50a72fdb31936068b5284177153a62"
+    },
+    {
+      "id": "14-crowded-b",
+      "category": "crowded-thin-boundaries",
+      "title": "File:Hatfield Heath Festival 2017 - people by the arena.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Hatfield_Heath_Festival_2017_-_people_by_the_arena.jpg/1920px-Hatfield_Heath_Festival_2017_-_people_by_the_arena.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Hatfield_Heath_Festival_2017_-_people_by_the_arena.jpg",
+      "license": "CC BY-SA 4.0",
+      "artist": "Acabashi",
+      "sha256": "48a1a1cc74386e2dbb87415d7b06d5f3b6bb4f3156bfc099cae9db163fe395fe"
+    }
+  ]
+}

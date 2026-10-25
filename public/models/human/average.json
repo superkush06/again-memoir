@@ -1,0 +1,346 @@
+{
+  "model": "makehuman",
+  "inputKind": "anatomical-template",
+  "shape": "average",
+  "upAxis": "y",
+  "frontYaw": 0,
+  "appearance": "vertex-color",
+  "vertexColorEncoding": "linear",
+  "source": "MakeHuman hm08 + CC0 authored macro targets and clothing",
+  "license": "CC0-1.0",
+  "pose": "Reusable neutral anatomy with authored skin weights; photograph pose applied at runtime",
+  "anatomicalFit": {
+    "headPivot": [
+      -9.229499331154965e-19,
+      1.5575475206132487,
+      0.024948449256043156
+    ],
+    "headFadeStartY": 1.4257241189586665,
+    "headFadeEndY": 1.5097241189586665,
+    "headChinY": 1.5157241189586665,
+    "referenceHeight": 1.76,
+    "garmentPhotoChinY": 1.574180533876354,
+    "garmentPhotoCrownY": 1.76,
+    "chinSourceIndex": 991,
+    "headLandmarks": [
+      {
+        "name": "noseTip",
+        "sourceIndex": 5054,
+        "mediapipeIndex": 4,
+        "position": [
+          0.0,
+          1.5944334392746264,
+          0.16717500505131244
+        ]
+      },
+      {
+        "name": "nasion",
+        "sourceIndex": 132,
+        "mediapipeIndex": 168,
+        "position": [
+          0.0,
+          1.6332327780767653,
+          0.14737962761823648
+        ]
+      },
+      {
+        "name": "eyeOuterRight",
+        "sourceIndex": 21,
+        "mediapipeIndex": 33,
+        "position": [
+          -0.042902731335720916,
+          1.6330631889201905,
+          0.1339754336937061
+        ]
+      },
+      {
+        "name": "eyeInnerRight",
+        "sourceIndex": 66,
+        "mediapipeIndex": 133,
+        "position": [
+          -0.017510911735692632,
+          1.631021468486139,
+          0.13953197252969968
+        ]
+      },
+      {
+        "name": "eyeOuterLeft",
+        "sourceIndex": 6805,
+        "mediapipeIndex": 263,
+        "position": [
+          0.042902731335720916,
+          1.6330631889201905,
+          0.1339754336937061
+        ]
+      },
+      {
+        "name": "eyeInnerLeft",
+        "sourceIndex": 6850,
+        "mediapipeIndex": 362,
+        "position": [
+          0.017510911735692632,
+          1.631021468486139,
+          0.13953197252969968
+        ]
+      },
+      {
+        "name": "mouthCornerRight",
+        "sourceIndex": 368,
+        "mediapipeIndex": 61,
+        "position": [
+          -0.024128214119670668,
+          1.56481851714814,
+          0.1469074382018923
+        ]
+      },
+      {
+        "name": "mouthCornerLeft",
+        "sourceIndex": 7128,
+        "mediapipeIndex": 291,
+        "position": [
+          0.024128214119670668,
+          1.56481851714814,
+          0.1469074382018923
+        ]
+      },
+      {
+        "name": "chinFrontBottom",
+        "sourceIndex": 732,
+        "mediapipeIndex": 152,
+        "position": [
+          0.0,
+          1.51919570875207,
+          0.13435451533781337
+        ]
+      },
+      {
+        "name": "forehead",
+        "sourceIndex": 983,
+        "mediapipeIndex": 10,
+        "position": [
+          0.0,
+          1.7062425726207961,
+          0.1342215042346178
+        ]
+      },
+      {
+        "name": "upperLipOuter",
+        "sourceIndex": 466,
+        "mediapipeIndex": 0,
+        "position": [
+          0.0,
+          1.5697698554645938,
+          0.16056767850007408
+        ]
+      },
+      {
+        "name": "upperLipInner",
+        "sourceIndex": 468,
+        "mediapipeIndex": 13,
+        "position": [
+          0.0,
+          1.5648584204790983,
+          0.1565341167956694
+        ]
+      },
+      {
+        "name": "lowerLipInner",
+        "sourceIndex": 493,
+        "mediapipeIndex": 14,
+        "position": [
+          0.0,
+          1.5621017653653708,
+          0.15498453744344137
+        ]
+      },
+      {
+        "name": "lowerLipOuter",
+        "sourceIndex": 496,
+        "mediapipeIndex": 17,
+        "position": [
+          0.0,
+          1.5541576772270174,
+          0.15678018733658114
+        ]
+      }
+    ]
+  },
+  "shapeWeights": {
+    "averagemuscle-averageweight": 1
+  },
+  "poseTemplate": {
+    "version": 1,
+    "method": "authored-weights",
+    "bones": [
+      "pelvis",
+      "torso",
+      "head",
+      "leftUpperArm",
+      "leftForearm",
+      "leftHand",
+      "rightUpperArm",
+      "rightForearm",
+      "rightHand",
+      "leftThigh",
+      "leftCalf",
+      "leftFoot",
+      "rightThigh",
+      "rightCalf",
+      "rightFoot"
+    ],
+    "joints": {
+      "leftShoulder": [
+        -0.18604096740080972,
+        1.3930263641771559,
+        0.01779106637179794
+      ],
+      "leftElbow": [
+        -0.22089539184148127,
+        1.144066189600931,
+        0.015600955425743909
+      ],
+      "leftWrist": [
+        -0.2631595830230497,
+        0.8895815550327547,
+        0.08378990774441611
+      ],
+      "leftHip": [
+        -0.1082361225865795,
+        0.933732374287802,
+        -0.00761156038036498
+      ],
+      "leftKnee": [
+        -0.15094515650327192,
+        0.5207894285845133,
+        0.026818363681800142
+      ],
+      "leftAnkle": [
+        -0.19728373089841258,
+        0.08827223640721116,
+        0.015174072916425727
+      ],
+      "leftToe": [
+        -0.21183015767163468,
+        0.04371517947549586,
+        0.15503774188471925
+      ],
+      "leftHeel": [
+        -0.19728373089841258,
+        0.06327223640721116,
+        -0.03982592708357427
+      ],
+      "leftHandTip": [
+        -0.24265670315576748,
+        0.6948043035889874,
+        0.1355251566281695
+      ],
+      "rightShoulder": [
+        0.1860409674008096,
+        1.3930263641771559,
+        0.01779106637179794
+      ],
+      "rightElbow": [
+        0.22089539184148116,
+        1.144066189600931,
+        0.015600955425743909
+      ],
+      "rightWrist": [
+        0.2631595830230496,
+        0.8854448459501529,
+        0.06587185215419424
+      ],
+      "rightHip": [
+        0.10823612258657936,
+        0.933732374287802,
+        -0.00761156038036498
+      ],
+      "rightKnee": [
+        0.1509451565032718,
+        0.5207894285845133,
+        0.026818363681800142
+      ],
+      "rightAnkle": [
+        0.19728373089841247,
+        0.08827223640721116,
+        0.015174072916425727
+      ],
+      "rightToe": [
+        0.21183015767163457,
+        0.04371517947549586,
+        0.15503774188471925
+      ],
+      "rightHeel": [
+        0.19728373089841247,
+        0.06327223640721116,
+        -0.03982592708357427
+      ],
+      "rightHandTip": [
+        0.24265670315576737,
+        0.6875331935710268,
+        0.10389410234558123
+      ],
+      "hips": [
+        -6.938893903907228e-17,
+        0.933732374287802,
+        -0.00761156038036498
+      ],
+      "shoulders": [
+        -5.551115123125783e-17,
+        1.3930263641771559,
+        0.01779106637179794
+      ],
+      "neck": [
+        -6.751609584324187e-17,
+        1.4973935262995353,
+        0.011518761536733337
+      ],
+      "head": [
+        0.0,
+        1.6294386363581124,
+        0.05816575542740894
+      ]
+    },
+    "sideConvention": "left-slot=MakeHuman-R; right-slot=MakeHuman-L",
+    "headRigidAboveY": 1.5097241189586665,
+    "referenceHeight": 1.76
+  },
+  "file": "average.glb",
+  "bytes": 1545324,
+  "meshes": [
+    {
+      "name": "Head",
+      "vertices": 4659,
+      "triangles": 8858
+    },
+    {
+      "name": "Skin",
+      "vertices": 4428,
+      "triangles": 7792
+    },
+    {
+      "name": "Shirt",
+      "vertices": 1644,
+      "triangles": 2700
+    },
+    {
+      "name": "Pants",
+      "vertices": 1593,
+      "triangles": 2674
+    },
+    {
+      "name": "Shoes",
+      "vertices": 1744,
+      "triangles": 3064
+    },
+    {
+      "name": "Hair",
+      "vertices": 3177,
+      "triangles": 3678
+    },
+    {
+      "name": "Eyes",
+      "vertices": 96,
+      "triangles": 172
+    }
+  ]
+}
